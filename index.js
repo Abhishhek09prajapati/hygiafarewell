@@ -6,7 +6,7 @@ fetch("https://opensheet.elk.sh/1RA-KlGO642ji9gQMH4J15P_8YIkLRYUOGymUR5D8Kz4/She
         setInterval(() => {
             var i = Math.floor(Math.random() * data.length);
             document.querySelector(".markquee").innerText = data[i].message;
-            document.querySelector(".farewellimage").src = `/images/${data[i].teacher}`;
+            document.querySelector(".farewellimage").src = `./images/${data[i].teacher}`;
             
         },2200);
 
