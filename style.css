@@ -10,7 +10,16 @@ body {
 }
 
 .farewellimage {
-    transition: all 1.5s alternate;
+    width: 80%;
+   
+    margin: auto;
+    border-radius: 10px;
+    padding-top: 10px;
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin: auto;
+
 }
 
 .markquee {
@@ -45,4 +54,13 @@ body {
     border-radius: 10px;
     border: none;
     cursor: pointer;
+}
+
+@media (max-width: 768px){
+    .maindiv{
+        width: 100%;
+    }
+    .share1{
+        width: 100%;
+    }
 }
